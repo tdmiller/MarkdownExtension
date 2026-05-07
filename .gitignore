@@ -431,4 +431,5 @@ FodyWeavers.xsd
 # Monorepo workspace content
 !/packages/
 !/packages/**
+/packages/*/node_modules/
 /packages/*/dist/
