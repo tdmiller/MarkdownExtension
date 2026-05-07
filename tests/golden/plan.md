@@ -9,5 +9,5 @@
 - Golden assertion: diagnostics (ruleId, line, message) must match expected JSON fixture.
 
 ## Fixture locations
-- Round-trip: `/home/runner/work/MarkdownExtension/MarkdownExtension/packages/rules/test/fixtures/roundtrip`
-- Rules: `/home/runner/work/MarkdownExtension/MarkdownExtension/packages/rules/test/fixtures/rules`
+- Round-trip: `packages/rules/test/fixtures/roundtrip`
+- Rules: `packages/rules/test/fixtures/rules`
