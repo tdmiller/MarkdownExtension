@@ -1,0 +1,10 @@
+{
+  "$schema": "./packages/config/schema/markdown-tooling.schema.json",
+  "extends": [
+    "@markdown-tooling/presets-default"
+  ],
+  "editorMode": {
+    "default": "wysiwyg",
+    "allowSourceToggle": true
+  }
+}

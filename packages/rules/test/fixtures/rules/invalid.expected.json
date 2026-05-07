@@ -1,0 +1,22 @@
+[
+  {
+    "ruleId": "structure/no-skipped-heading-level",
+    "line": 3,
+    "message": "Heading level jumps from H1 to H3."
+  },
+  {
+    "ruleId": "structure/required-sections",
+    "line": 1,
+    "message": "Missing required section: Overview."
+  },
+  {
+    "ruleId": "structure/required-sections",
+    "line": 1,
+    "message": "Missing required section: Usage."
+  },
+  {
+    "ruleId": "structure/required-sections",
+    "line": 1,
+    "message": "Missing required section: References."
+  }
+]

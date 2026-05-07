@@ -1,0 +1,17 @@
+{
+  "name": "@markdown-tooling/cli",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mdtool": "dist/cli.js"
+  },
+  "dependencies": {
+    "@markdown-tooling/rules": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}

@@ -427,3 +427,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Monorepo workspace content
+!/packages/
+!/packages/**
+/packages/*/dist/

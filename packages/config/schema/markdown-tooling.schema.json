@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://markdown-tooling.dev/schemas/markdown-tooling.schema.json",
+  "title": "Markdown Tooling Config",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "extends": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "editorMode": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "default": {
+          "type": "string",
+          "enum": ["source", "wysiwyg"]
+        },
+        "allowSourceToggle": { "type": "boolean" }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "properties": {
+        "required": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}
